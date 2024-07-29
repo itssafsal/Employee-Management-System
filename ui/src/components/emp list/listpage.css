@@ -1,0 +1,52 @@
+.listbody {
+  background: #22252a;
+  height: max-content;
+  min-height: 100vh;
+  padding: 5%;
+}
+
+.list-card {
+  height: max-content;
+  min-height: 40vh;
+  padding: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  min-width: 180vh;
+  color: #70737a;
+  background: #2d3035;
+}
+
+.search-box {
+  background: transparent;
+  border: solid 0.1px #70737a;
+  border-radius: 10px 0px 0px 10px;
+  float: right;
+  margin-bottom: 20px;
+  width: 13%;
+}
+
+.search-box:focus {
+  border: solid 1px #2e79be;
+  background: transparent;
+}
+
+.search-btn {
+  float: right;
+  margin-right: 10vh;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.list-card table {
+  width: 100%;
+}
+
+.list-card h5 {
+  color: #8a8d93;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}

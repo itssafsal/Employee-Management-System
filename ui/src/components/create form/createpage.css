@@ -1,0 +1,64 @@
+.create{
+    background: #22252a;
+    height: 110vh;
+    padding: 5%;
+}
+
+.form-card{
+    height: max-content;
+    padding-bottom: 30px;
+    width: 100%;
+    color: #70737a;
+    background: #2d3035;
+}
+
+.create-input-box label{
+    float: left;
+}
+
+
+.form-card h5{
+    color: #8a8d93;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.create-input-box{
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.create-input-box input{
+    background: transparent;
+    border: solid 0.1px #70737a;
+    border-radius: px;
+    outline: none;
+    
+}
+
+.create-input-box input:focus{
+    border: solid 1px #2e79be;
+    background: transparent;
+}
+
+.cf-ib{
+    width: 60%;
+    height: 35px;
+}
+
+.create-input-box input::-webkit-file-upload-button{
+    height: 35px;
+    background-color:#70737a;
+    border: none;
+    
+}
+
+.create-input-box input::-webkit-inner-spin-button,
+.create-input-box input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
